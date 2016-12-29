@@ -259,3 +259,15 @@ var CODETABLE = {
 	'255':'eeeeee'
 };
 
+var stripescape = function(escapestring) {
+	return xtermstring.toString().replace('\u001b[38;5;', '').replace('m', '');
+};
+
+var xterm2hex = function(xtermcolor) {
+	return '#' + CODETABLE[xtermcolor];
+};
+
+module.exports = {
+	xterm2hex: xterm2hex,
+	stripescape: stripescape
+};

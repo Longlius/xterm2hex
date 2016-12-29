@@ -1,6 +1,6 @@
 {
-	"name": "xterm2rgb",
+	"name": "xterm2hex",
 	"version": "0.0.1",
 	"author": "Matthew Longley <randomticktock@gmail.com>",
-	"repository": "git@github.com:Longlius/xterm2rgb.git"
+	"repository": "git@github.com:Longlius/xterm2hex.git"
 }
